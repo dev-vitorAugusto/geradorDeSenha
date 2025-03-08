@@ -30,7 +30,7 @@ botaoGerar.addEventListener('click', function() {
 function avaliarForca(senha) {
     let forca = 0;
 
-    if (senha.length >= 5) forca++; 
+    if (senha.length >= 4) forca++; 
     if (senha.match(/[A-Z]/)) forca++; 
     if (senha.match(/[0-9]/)) forca++; 
     if (senha.match(/[\W_]/)) forca++; 
@@ -56,7 +56,7 @@ function avaliarForca(senha) {
         texto.innerText = "Senha Forte 💪";
     } else {
         barra.style.width = "0%";
-        texto.innerText = "Senha -";
+        texto.innerText = "Melhor tentar outra";
     }
 }
 

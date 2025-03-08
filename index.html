@@ -26,16 +26,16 @@
 
         <div class="card shadow w-75 w-md-50 w-lg-25 mb-3">
             <div class="card-body d-flex flex-column justify-content-center align-items-center">
-                <h5 class="card-title titulo mb-2">Gerador de senhas</h5>
-                <div class="d-flex flex-column w-50"> 
-                    <input type="text" id="senha" class="border border-0 text-center input-senha mb-2" disabled placeholder="XXXXXXXX" readonly>
+                <h5 class="card-title titulo mb-2">Senha gerada</h5>
+                <div class="d-flex flex-column w-100"> 
+                    <input type="text" id="senha" class="border border-0 text-center input-senha mb-2 w-100" disabled placeholder="XXXXXXXX" readonly>
                     
                     <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
                         <div class="progress-bar" id="forcaSenha" style="width: 0%"></div>
                     </div>
                     <p class="forcaSenha" id="textoForca"></p>
     
-                    <div class="input-container mt-2 mb-2 d-flex justify-content-between align-items-center w-100"> <!-- Ajuste de layout para os botões e input -->
+                    <div class="input-container mt-2 mb-2 d-flex justify-content-between align-items-center w-100">
                         <button onclick="alterarTamanho(-1)" class="btn btn-success btn-sm">-</button>
                         <input type="number" id="tamanhoSenha" value="12" min="4" max="16" class="w-25 text-center" readonly>
                         <button onclick="alterarTamanho(1)" class="btn btn-success btn-sm">+</button>

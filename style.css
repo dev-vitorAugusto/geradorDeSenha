@@ -1,0 +1,29 @@
+#senha::placeholder{
+    letter-spacing: 10px;
+    font-size: 1.5rem;
+    height: 100vh;
+    color: green;
+}
+#senha{
+    background-color: transparent;
+    padding: 10px;
+}
+.teste{
+    color: green;
+    font-weight: 500;
+    letter-spacing: 10px;
+    font-size: 1.2rem;
+}
+.titulo{
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 1.6rem;
+}
+.h1{
+    letter-spacing: 2px;
+}
+
+/* MODO ESCURO */
+body.dark-mode{
+    background-color: #333;
+}
